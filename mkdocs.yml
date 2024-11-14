@@ -1,0 +1,58 @@
+site_name: dealii-X Center of Excellence
+site_url:  https://www.dealii-X.org/
+repo_name: dealii-x/homepage
+repo_url:  https://github.com/dealii-x/dealii
+plugins: []
+hooks:
+  - hook_create_symlinks.py
+nav:
+  - Home: index.md
+  - About:
+    - Overview: about/overview.md
+    - Partners: about/partners.md
+    - Contact: about/contact.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - markdown_include.include:
+      base_path: docs
+  - admonition
+  - pymdownx.blocks.html
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.path
+    - header.autohide
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # icon:
+  #   repo: fontawesome/brands/github
+  # logo:    assets/clover57.png
+  # favicon: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+# extra:
+  # homepage: https://www.dealii.org
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/dealii-x/dealii-x
+  # generator: false
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2024 - 2026 by the dealii-X partners
