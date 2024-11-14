@@ -4,7 +4,7 @@
     pip install mkdocs-material
     pip install markdown-include
 
-Alternatively you can use conda to install all packages into a new environment named `dealii-website` like this:
+Alternatively you can use conda to install all packages into a new environment named `dealii-X-website` like this:
 
     conda env create -f environment.yml
 
@@ -21,20 +21,19 @@ and you should see something like
 
 ## Notes
 
- - Large asset files are stored in a separate git repository
-   <https://github.com/dealii/website-large_assets>
+- Large asset files are stored in a separate git repository
+   <https://github.com/dealii-x/website-large_assets>
 
    You can check out the repository as a git submodule:
+
    ```
    git submodule update --init
    ```
 
- - If you want to add to the timeline, access this google document, and ask for access write permission:
-   <https://docs.google.com/spreadsheets/d/1FYT2_aIxZT4VFJeJDrqAu5out9HwCDwsxWU299e5hlk/edit?gid=0#gid=0>
+- If you want to add to the timeline, access this google document, and ask for access write permission:
+   <https://docs.google.com/spreadsheets/d/1WTOUig54JxegzanQqvpwWa1m6Q7qN0sEmCyVQtu9SyQ/edit?gid=0#gid=0>
 
    This is generated from this template:
 
-   https://timeline.knightlab.com/#help
-   https://timeline.knightlab.com/docs/using-spreadsheets.html#title_slides
-
-
+   <https://timeline.knightlab.com/#help>
+   <https://timeline.knightlab.com/docs/using-spreadsheets.html#title_slides>

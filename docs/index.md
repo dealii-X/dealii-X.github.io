@@ -38,3 +38,5 @@ The dealii-X framework's applications are broad, ranging from academic research 
 - **Education and training**: The platform’s open-access documentation and modular design provide a valuable educational tool, allowing students and researchers to engage deeply with HPC and adaptive modeling techniques.
 
 This project, led by a consortium of institutions across Europe, underscores the commitment to advancing computational sciences to improve health outcomes and expand the capabilities of digital modeling.
+
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WTOUig54JxegzanQqvpwWa1m6Q7qN0sEmCyVQtu9SyQ&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>

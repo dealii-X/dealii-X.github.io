@@ -1,10 +1,10 @@
 site_name: dealii-X Center of Excellence
-site_url:  https://www.dealii-X.org/
-repo_name: dealii-x/homepage
-repo_url:  https://github.com/dealii-x/dealii
+site_url:  https://dealii-X.github.io/
+repo_name: dealii-x/dealii-x
+repo_url:  https://github.com/dealii-x/dealii-x
 plugins: []
-hooks:
-  - hook_create_symlinks.py
+# hooks:
+#   - hook_create_symlinks.py
 nav:
   - Home: index.md
   - About:

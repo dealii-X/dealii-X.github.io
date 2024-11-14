@@ -1,6 +1,6 @@
 # Partners
 
-The **dealii-X** project brings together a consortium of distinguished institutions from across Europe. Each partner contributes unique expertise in high-performance computing, computational modeling, and scientific research, creating a robust foundation for developing digital twins in healthcare and other fields.
+The **dealii-X** center of excellence brings together a consortium of distinguished institutions from across Europe. Each partner contributes unique expertise in high-performance computing, computational modeling, and scientific research, creating a robust foundation for developing digital twins in healthcare and other fields.
 
 ## Project Partners
 

@@ -6,7 +6,7 @@ on:
       - main  # Deploys on push to the main branch
 
 jobs:
-  build-deploy:
+  deploy-pages:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +29,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        publish_branch: main  # This will be the branch for the dealii-X.github.io repository
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site
-        external_repository: dealii-X/dealii-X.github.io  # Specifies the target repository
